@@ -1,5 +1,4 @@
-package com.gitlab.alelizzt.universidad.universidadbackend.repositorios;
-
+package com.inscripcion.universidad;
 import com.gitlab.alelizzt.universidad.universidadbackend.modelo.entidades.Alumno;
 import com.gitlab.alelizzt.universidad.universidadbackend.modelo.entidades.Carrera;
 import com.gitlab.alelizzt.universidad.universidadbackend.modelo.entidades.Persona;

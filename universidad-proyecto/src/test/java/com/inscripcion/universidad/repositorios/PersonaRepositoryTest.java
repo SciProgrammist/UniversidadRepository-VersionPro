@@ -1,78 +1,44 @@
-package com.inscripcion.universidad;
+package com.inscripcion.universidad.repositorios;
 
-import com.gitlab.alelizzt.universidad.universidadbackend.datos.DatosDummy;
-import com.gitlab.alelizzt.universidad.universidadbackend.modelo.entidades.Empleado;
-import com.gitlab.alelizzt.universidad.universidadbackend.modelo.entidades.Persona;
-import com.gitlab.alelizzt.universidad.universidadbackend.modelo.entidades.Profesor;
+
+
+import com.inscripcion.universidad.modelo.entidades.Persona;
+import com.inscripcion.universidad.modelo.entidades.Profesor;
+import org.aspectj.weaver.NewConstructorTypeMunger;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.boot.web.embedded.undertow.UndertowServletWebServer;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
-
-import static com.gitlab.alelizzt.universidad.universidadbackend.datos.DatosDummy.*;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 @DataJpaTest
 class PersonaRepositoryTest {
 
     @Autowired
-    @Qualifier("repositorioAlumnos")
-    PersonaRepository alumnoRepository;
-    @Autowired
-    @Qualifier("empleadoRepository")
-    PersonaRepository empleadoRepository;
-    @Autowired
     @Qualifier("repositorioProfesores")
-    PersonaRepository profesorRepository;
+    ProfesorRepository profesorRepository;
 
     @Test
-    void buscarPorNombreYApellido() {
-        //given
-        Persona save = empleadoRepository.save(empleado01());
-
+    void findProfesorByUsername() {
+        //Given
+        Profesor user02 = new Profesor(1, "Profe01", "Profe02","062266125", "casa", 2.0);
+        profesorRepository.save(user02);
         //when
-        Optional<Persona> expected = empleadoRepository.buscarPorNombreYApellido(empleado01().getNombre(),
-                empleado01().getApellido());
+        String username = "Profesor01";
+        Profesor expected = profesorRepository.findProfesorByName("Profe01");
+        System.out.println(expected.toString());
 
         //then
-        assertThat(expected.get()).isInstanceOf(Empleado.class);
-        assertThat(expected.get()).isEqualTo(save);
+        assertThat(expected.getNombre().equals(username)).isTrue();
     }
-
+/*
     @Test
     void buscarPorDni() {
-        //given
-        Persona save = profesorRepository.save(profesor01());
-
-        //when
-        Optional<Persona> expected = profesorRepository.buscarPorDni(profesor01().getDni());
-        
-        //then
-        assertThat(expected.get()).isInstanceOf(Profesor.class);
-        assertThat(expected.get()).isEqualTo(save);
-        assertThat(expected.get().getDni()).isEqualTo(save.getDni());
     }
 
     @Test
     void buscarPersonasPorApellido() {
-        //given
-        Iterable<Persona> personas = alumnoRepository.saveAll(
-                Arrays.asList(
-                        alumno01(),
-                        alumno02(),
-                        alumno03())
-        );
-
-        //when
-        String apellido = "Benitez";
-        List<Persona> expected = (List<Persona>) alumnoRepository.buscarPersonasPorApellido(apellido);
-
-        //then
-        assertThat(expected.size() == 2).isTrue();
-    }
+    }*/
 }

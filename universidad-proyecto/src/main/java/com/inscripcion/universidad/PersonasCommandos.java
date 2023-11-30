@@ -12,6 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Component
 public class PersonasCommandos implements CommandLineRunner {
 
@@ -28,7 +30,7 @@ public class PersonasCommandos implements CommandLineRunner {
     private ProfesorRepository profesorServicio;
     @Override
     public void run(String... args) throws Exception {
-     /*   Alumno a1=new Alumno(null, "Juan Carlos","Morales", "06509815-6", "Santo Tomás","043495");
+        /*Alumno a1=new Alumno(null, "Juan Carlos","Morales", "06509815-6", "Santo Tomás","043495");
         Alumno a2=new Alumno(null, "Marcela","Najera", "16509815-8", "San Marcos","042345");
         Alumno a3=new Alumno(null, "Javier","Duran", "26509815-6", "Santo Tomás","043499");
 
@@ -36,19 +38,21 @@ public class PersonasCommandos implements CommandLineRunner {
         servicio.save(a2);
         servicio.save(a3);*/
 
-      /*  Carrera c1 =new Carrera(null, "Sistemas informaticos", 5,"Ciencias de la computación");
+     /*   Carrera c1 =new Carrera(null, "Sistemas informaticos", 5,"Ciencias de la computación");
         Carrera c2 =new Carrera(null, "Desarrollo de software", 5,"Ciencias de la computación");
         Carrera c3 =new Carrera(null, "Redes informaticas", 5,"Ciencias de la computación");
         carreraServicio.save(c1);
         carreraServicio.save(c2);
-        carreraServicio.save(c3);*/
+        carreraServicio.save(c3);
+*/
+
 
        /* Materia m1=new Materia(null, "Estadistica", "30167", null);
         materiaServicio.save(m1);
         Materia m2=new Materia(null, "Fisica", "10167", null);
         materiaServicio.save(m2);*/
 
-       /* Asistencia As1=new Asistencia(null, null);
+        /*Asistencia As1=new Asistencia(null, null);
         asistenciaServicio.save(As1);
         Asistencia As2=new Asistencia(null, null);
         asistenciaServicio.save(As2);
@@ -60,7 +64,7 @@ public class PersonasCommandos implements CommandLineRunner {
         Profesor p2=new Profesor(null, "Juan", "Guzmán","3326735-6","Alta vista ",700.00);
         profesorServicio.save(p2);
         Profesor p3=new Profesor(null, "Maria", "Morgan","6726735-6","Alta vista ",700.00);
-        profesorServicio.save(p3);*/
-
+        profesorServicio.save(p3);
+*/
     }
 }

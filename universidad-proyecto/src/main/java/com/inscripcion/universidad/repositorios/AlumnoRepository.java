@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 @Repository("repositorioAlumnos")
 public interface AlumnoRepository extends PersonaRepository {
 
-
-
+    @Query("select a from Alumno a join fetch a.materias c where c.nombre = ?1")
+    Iterable<Persona> buscarAlumnosPorNombreMateria(String nombre);
 }

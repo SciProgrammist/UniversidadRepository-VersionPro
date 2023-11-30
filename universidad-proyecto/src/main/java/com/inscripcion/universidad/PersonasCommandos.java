@@ -30,6 +30,7 @@ public class PersonasCommandos implements CommandLineRunner {
     private ProfesorRepository profesorServicio;
     @Override
     public void run(String... args) throws Exception {
+
         /*Alumno a1=new Alumno(null, "Juan Carlos","Morales", "06509815-6", "Santo Tomás","043495");
         Alumno a2=new Alumno(null, "Marcela","Najera", "16509815-8", "San Marcos","042345");
         Alumno a3=new Alumno(null, "Javier","Duran", "26509815-6", "Santo Tomás","043499");

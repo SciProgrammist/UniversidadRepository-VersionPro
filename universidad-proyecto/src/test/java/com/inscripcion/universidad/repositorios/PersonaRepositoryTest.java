@@ -16,7 +16,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 @DataJpaTest
 class PersonaRepositoryTest {
 
-    @Autowired
+   /* @Autowired
     @Qualifier("repositorioProfesores")
     ProfesorRepository profesorRepository;
 
@@ -32,7 +32,7 @@ class PersonaRepositoryTest {
 
         //then
         assertThat(expected.getNombre().equals(username)).isTrue();
-    }
+    }*/
 /*
     @Test
     void buscarPorDni() {

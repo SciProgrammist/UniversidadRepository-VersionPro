@@ -19,7 +19,7 @@ public class AlumnoDAOImpl extends PersonaDAOImpl implements AlumnoDAO {
     }
 
     @Override
-    @Transactional(readOnly =true)
+    @Transactional(readOnly = true)
     public Iterable<Persona> buscarAlumnosPorNombreMateria(String nombre) {
         return ((AlumnoRepository)repository).buscarAlumnosPorNombreMateria(nombre);
     }

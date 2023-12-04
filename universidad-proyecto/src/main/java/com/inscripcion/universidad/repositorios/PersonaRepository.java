@@ -14,5 +14,7 @@ public interface PersonaRepository extends CrudRepository<Persona, Integer> {
     Optional<Persona> buscarPorNombre(String nombre);
     @Query("select p from Persona p where p.dui = ?1")
     Optional<Persona> buscarPorDui(String dui);
+    @Query("select p from Persona p where p.apellido like %?1%") //Para una busqueda mas amplia de lo que se esta buscando.
+    Iterable<Persona> buscarPersonaPorApellido(String apellido);
 
 }

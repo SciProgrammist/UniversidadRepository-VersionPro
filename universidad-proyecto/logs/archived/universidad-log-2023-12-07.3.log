@@ -1,0 +1,62 @@
+2023-12-07 19:08:20,903 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-07 19:08:20,906 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-12-07 19:08:20,907 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9081-exec-1] Completed initialization in 1 ms
+2023-12-07 19:14:04,062 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-07 19:14:04,064 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-07 19:14:04,070 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-07 19:14:07,234 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-12-07 19:14:07,294 INFO org.springframework.boot.StartupInfoLogger [main] Starting UniversidadBackendApplication using Java 17.0.5 with PID 26676 (C:\Users\danie\Downloads\Pasantia-BC\Capacitacion-backend\SpringBoot en Simples Pasos\universidad-backend\universidad-backend\target\classes started by ComputerScientist in C:\Users\danie\Downloads\Pasantia-BC\Capacitacion-backend\SpringBoot en Simples Pasos\universidad-backend\universidad-backend)
+2023-12-07 19:14:07,295 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-07 19:14:08,266 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-07 19:14:08,378 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 98 ms. Found 4 JPA repository interfaces.
+2023-12-07 19:14:09,098 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 9081 (http)
+2023-12-07 19:14:09,108 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9081"]
+2023-12-07 19:14:09,112 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-12-07 19:14:09,112 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-07 19:14:09,202 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-12-07 19:14:09,204 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1854 ms
+2023-12-07 19:14:09,394 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-07 19:14:09,478 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-07 19:14:09,520 INFO org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-07 19:14:09,801 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-07 19:14:09,840 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-07 19:14:10,042 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2fac80a8
+2023-12-07 19:14:10,045 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-07 19:14:11,143 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-07 19:14:11,254 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-07 19:14:11,541 INFO org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-12-07 19:14:12,157 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-07 19:14:12,575 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9081"]
+2023-12-07 19:14:12,595 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 9081 (http) with context path '/api/v2/universidad'
+2023-12-07 19:14:12,602 INFO org.springframework.boot.StartupInfoLogger [main] Started UniversidadBackendApplication in 5.736 seconds (process running for 6.47)
+2023-12-07 19:14:55,287 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-07 19:14:55,287 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-12-07 19:14:55,289 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9081-exec-1] Completed initialization in 1 ms
+2023-12-07 19:16:31,250 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-07 19:16:31,252 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-07 19:16:31,263 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-07 19:16:36,643 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-12-07 19:16:36,714 INFO org.springframework.boot.StartupInfoLogger [main] Starting UniversidadBackendApplication using Java 17.0.5 with PID 35756 (C:\Users\danie\Downloads\Pasantia-BC\Capacitacion-backend\SpringBoot en Simples Pasos\universidad-backend\universidad-backend\target\classes started by ComputerScientist in C:\Users\danie\Downloads\Pasantia-BC\Capacitacion-backend\SpringBoot en Simples Pasos\universidad-backend\universidad-backend)
+2023-12-07 19:16:36,716 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-07 19:16:37,693 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-07 19:16:37,825 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 116 ms. Found 4 JPA repository interfaces.
+2023-12-07 19:16:38,570 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 9081 (http)
+2023-12-07 19:16:38,581 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9081"]
+2023-12-07 19:16:38,584 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-12-07 19:16:38,585 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-07 19:16:38,681 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-12-07 19:16:38,683 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1903 ms
+2023-12-07 19:16:38,874 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-07 19:16:38,930 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-07 19:16:38,967 INFO org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-07 19:16:39,292 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-07 19:16:39,326 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-07 19:16:39,532 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d8d970e
+2023-12-07 19:16:39,534 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-07 19:16:40,610 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-07 19:16:40,717 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-07 19:16:41,013 INFO org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-12-07 19:16:41,613 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-07 19:16:41,982 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9081"]
+2023-12-07 19:16:42,003 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 9081 (http) with context path '/api/v2/universidad'
+2023-12-07 19:16:42,011 INFO org.springframework.boot.StartupInfoLogger [main] Started UniversidadBackendApplication in 5.803 seconds (process running for 6.499)
